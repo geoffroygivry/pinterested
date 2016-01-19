@@ -1,6 +1,9 @@
 <div class="jumbotron">
   <h1>This is Pinterested! <small>a new way to pin your interest!</small></h1>
   <p>Just follow the white rabbit...</p>
+  <% if user_signed_in? %>
+  <% else %>
   <%= link_to 'join', new_user_registration_path, class: 'btn btn-default'%>
   <%= link_to 'login', new_user_session_path, class: 'btn btn-primary'%>
+  <% end %>
 </div>
