@@ -10,7 +10,8 @@ gem 'turbolinks' # Turbolinks makes following links in your web application fast
 gem 'jbuilder', '~> 2.0' # Build JSON APIs with ease. Read more: https://github.com/rails/jbuilder
 gem 'sdoc', '~> 0.4.0',          group: :doc
 gem 'spring',        group: :development
-gem 'bootstrap-sass'
+gem 'bootstrap-sass' # install the bootstrap-saas css for styling
+gem 'devise', '~> 3.5', '>= 3.5.4' # authentification users
 
 
 group :development, :test do
