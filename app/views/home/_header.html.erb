@@ -8,7 +8,7 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-      <a class="navbar-brand" href="#">Pinterested</a>
+      <%= link_to 'Pinterested', root_path, class: 'navbar-brand' %>
     </div>
 
     <!-- Collect the nav links, forms, and other content for toggling -->
@@ -19,7 +19,8 @@
 
       <ul class="nav navbar-nav navbar-right">
         
-        <li><%= link_to 'Home', root_path %></li>
+        <li><%= link_to 'Create Pin', new_pin_path %></li>
+        <li><%= link_to 'Pins', pins_path %></li>
         <li><%= link_to "About us", home_about_path %></li>
         
         <% if user_signed_in? %>
