@@ -12,6 +12,7 @@ gem 'sdoc', '~> 0.4.0',          group: :doc
 gem 'spring',        group: :development
 gem 'bootstrap-sass' # install the bootstrap-saas css for styling
 gem 'devise', '~> 3.5', '>= 3.5.4' # authentification users
+gem 'paperclip', '~> 4.3', '>= 4.3.2'
 
 
 group :development, :test do
