@@ -13,7 +13,7 @@ gem 'spring',        group: :development
 gem 'bootstrap-sass' # install the bootstrap-saas css for styling
 gem 'devise', '~> 3.5', '>= 3.5.4' # authentification users
 gem 'paperclip', '~> 4.3', '>= 4.3.2' # for images views
-gem 'aws-sdk', '~> 2.2', '>= 2.2.12' # hosting images on AWS S3
+gem 'aws-sdk','< 2.0' # hosting images on AWS S3
 
 
 group :development, :test do
