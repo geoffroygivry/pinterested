@@ -14,7 +14,8 @@ gem 'bootstrap-sass' # install the bootstrap-saas css for styling
 gem 'devise', '~> 3.5', '>= 3.5.4' # authentification users
 gem 'paperclip', '~> 4.3', '>= 4.3.2' # for images views
 gem 'aws-sdk','< 2.0' # hosting images on AWS S3
-
+gem 'jquery-turbolinks'
+gem 'masonry-rails', '~> 0.2.4'
 
 group :development, :test do
   gem 'sqlite3'
