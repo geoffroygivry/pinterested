@@ -16,6 +16,8 @@ gem 'paperclip', '~> 4.3', '>= 4.3.2' # for images views
 gem 'aws-sdk','< 2.0' # hosting images on AWS S3
 gem 'jquery-turbolinks'
 gem 'masonry-rails', '~> 0.2.4'
+gem 'will_paginate', '~> 3.1'
+gem 'will_paginate-bootstrap', '~> 1.0', '>= 1.0.1'
 
 group :development, :test do
   gem 'sqlite3'
